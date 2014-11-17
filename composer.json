@@ -1,0 +1,23 @@
+{
+    "name": "hgg/parallelproccess",
+    "type": "library",
+    "description": "Keep mulitiple processes running and respawn if necessary",
+    "keywords": [ "parallel", "process" ],
+    "homepage": "http://github.com/hglattergotz/parallelprocess",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Henning Glatter-Götz",
+            "email": "henning@glatter-gotz.com",
+            "homepage": "http://glatter-gotz.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/process": ">=2.1.0"
+    },
+    "autoload": {
+        "psr-0": { "HGG\\ParallelProcess\\": "src/" }
+    },
+    "minimum-stability": "dev"
+}
