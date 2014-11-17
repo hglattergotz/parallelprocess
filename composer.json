@@ -1,5 +1,5 @@
 {
-    "name": "hgg/parallelproccess",
+    "name": "hgg/parallelprocess",
     "type": "library",
     "description": "Keep mulitiple processes running and respawn if necessary",
     "keywords": [ "parallel", "process" ],
